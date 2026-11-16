@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 数据（data/cleaned 下的 csv 需入库共享，便于全组复现，不要忽略；
+# 若单文件超过 100MB 需提前与组长商量改用 Git LFS）
+
+# 临时输出
+*.log
